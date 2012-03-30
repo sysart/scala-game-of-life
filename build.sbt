@@ -7,7 +7,8 @@ organization := "org.agilefinland.oulu"
 
 libraryDependencies ++= Seq(
     "org.specs2" %% "specs2" % "1.8.2" % "test",
-    "org.scalatest" %% "scalatest" % "1.7.1" % "test"
+    "org.scalatest" %% "scalatest" % "1.7.1" % "test",
+    "junit" % "junit" % "4.10" % "test"
     )
 
 resolvers ++= Seq("snapshots" at "http://oss.sonatype.org/content/repositories/snapshots",
